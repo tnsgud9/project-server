@@ -1,15 +1,23 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Shared;
 
 namespace ApiServer.Controllers;
 
 [ApiController]
-[Route("user")]
+[Route("api/")]
 public class UserController : ControllerBase
 {
-    [Route("")]
+    [Route(ApiUrl.Login)]
     [HttpGet]
-    public async Task<IActionResult> HelloWorld()
+    public async Task<IActionResult> Login()
     {
-        return Ok("Hello World!"); 
+        return Ok("login");
     }
-}
+
+    [Route(ApiUrl.Signup)]
+    [HttpGet]
+    public async Task<IActionResult> SignUp()
+    {
+        return Ok("signup");
+    }
+}   

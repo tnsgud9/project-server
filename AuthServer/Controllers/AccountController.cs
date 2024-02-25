@@ -5,7 +5,7 @@ namespace AuthServer.Controllers;
 
 [ApiController]
 [Route("auth")]
-public class UserController : ControllerBase
+public class AccountController : ControllerBase
 {
     [Route(ApiUrl.UserLogin)]
     [HttpPost]

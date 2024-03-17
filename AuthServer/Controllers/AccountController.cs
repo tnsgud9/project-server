@@ -7,28 +7,28 @@ namespace AuthServer.Controllers;
 [Route("auth")]
 public class AccountController : ControllerBase
 {
-    [Route(ApiUrl.UserLogin)]
+    [Route(ApiUri.UserLogin)]
     [HttpPost]
     public async Task<IActionResult> UserLogin()
     {
         return Ok("login");
     }
 
-    [Route(ApiUrl.UserSignup)]
+    [Route(ApiUri.UserSignup)]
     [HttpPost]
     public async Task<IActionResult> UserSignUp()
     {
         return Ok("signup");
     }
     
-    [Route(ApiUrl.UserEdit)]
+    [Route(ApiUri.UserEdit)]
     [HttpPost]
     public async Task<IActionResult> UserEdit()
     {
         return Ok("Edit");
     }
 
-    [Route(ApiUrl.UserDelete)] 
+    [Route(ApiUri.UserDelete)] 
     [HttpPost] 
     public async Task<IActionResult> UserDelete()
     {

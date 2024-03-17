@@ -1,6 +1,6 @@
 ﻿namespace Shared;
 
-public class ApiUrl
+public static class ApiUri
 {
     public const string UserSignup = " user/signup";
     public const string UserLogin = " user/login";

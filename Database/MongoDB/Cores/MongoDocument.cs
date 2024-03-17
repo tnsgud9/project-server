@@ -1,5 +1,5 @@
 ﻿namespace Database.MongoDB.Cores;
 
-public class TrackingDocument<TDocument> {
+public abstract class MongoDocument {
     
 }

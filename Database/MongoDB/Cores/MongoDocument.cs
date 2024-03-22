@@ -1,5 +1,5 @@
 ﻿namespace Database.MongoDB.Cores;
 
-public abstract class MongoDocument {
-    
+[System.AttributeUsage(System.AttributeTargets.Class)]
+public class MongoDocument : System.Attribute {
 }

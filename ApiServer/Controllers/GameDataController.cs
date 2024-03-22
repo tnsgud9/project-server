@@ -1,5 +1,5 @@
 ﻿namespace ApiServer.Controllers;
 
-public class UserController {
+public class GameDataController {
     
 }

@@ -1,5 +1,5 @@
-﻿namespace Database.MongoDB;
-
-public class Collections {
+﻿namespace Database.MongoDB {
+    public class Collections {
     
+    }
 }
